@@ -17,7 +17,7 @@ public class SeleniumConfig {
     }
 
     static {
-        System.setProperty("webdriver.gecko.driver", findFile("geckodriver.mac"));
+        System.setProperty("webdriver.gecko.driver", findFile("C:\\Program Files\\Mozilla Firefox\\geckodriver.exe"));
        // System.setProperty("webdriver.firefox.driver", "C:\\Program Files\\Mozilla Firefox\\firefox.exe");
     }
 
